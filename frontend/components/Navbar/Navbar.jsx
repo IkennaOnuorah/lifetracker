@@ -14,44 +14,24 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <Appbar position="static">
         <Toolbar>
-          <IconButton 
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
+          
 
-            <ul>
-              <li>
-              <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to ="/Activity">Activity</Link>
-              </li>
-              <li>
-                <Link to ="/Exercise">Exercise</Link>
-              </li>
-              <li>
-                <Link to ="/Nutrition">Nutrition</Link>
-              </li>
-              <li>
-                <Link to ="/Sleep">Sleep</Link>
-              </li>
-              <li>
-                <Link to ="/Signup">Signup</Link>
-              </li>
-              <li>
-                <Link to ="/Signup">Signup</Link>
-              </li>
-            </ul>
-            <MenuIcon />
-          </IconButton>
+
+          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             LifeTracker
           </Typography>
-          <Button color="inherit">Signup</Button>
-          <Button color="inherit">Login</Button>
+
+          <div className="buttons">
+            <Link to="/">Home</Link>
+            <Link to ="/Activity">Activity</Link>
+            <Link to ="/Exercise">Exercise</Link>
+            <Link to ="/Nutrition">Nutrition</Link>
+            <Link to ="/Sleep">Sleep</Link>
+            <Link to ="/Signup">Signup</Link>
+            <Link to ="/Login">Login</Link>
+
+          </div>
         </Toolbar>
       </Appbar>
     </Box>
