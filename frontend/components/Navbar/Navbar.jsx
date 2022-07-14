@@ -14,10 +14,6 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <Appbar position="static">
         <Toolbar>
-          
-
-
-          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             LifeTracker
           </Typography>
@@ -28,9 +24,8 @@ export default function Navbar() {
             <Link to ="/Exercise">Exercise</Link>
             <Link to ="/Nutrition">Nutrition</Link>
             <Link to ="/Sleep">Sleep</Link>
-            <Link to ="/Signup">Signup</Link>
             <Link to ="/Login">Login</Link>
-
+            <Link to ="/Signup">Signup</Link>
           </div>
         </Toolbar>
       </Appbar>

@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const authRouter = require("./routes/auth")
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.use(cors());
 app.use(morgan("tiny"));
