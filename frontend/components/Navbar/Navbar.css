@@ -1,12 +1,15 @@
 .typography{
-    
+    margin: center;
 }
 
 .buttons{
+    
+
     margin-right: 50px;
-    display: inline-block;
+    
 }
 
 .Activity{
     margin-right: 50px;
+    
 }

@@ -19,13 +19,13 @@ export default function Navbar() {
           </Typography>
 
           <div className="buttons">
-            <Link to="/">Home</Link>
-            <Link to ="/Activity">Activity</Link>
-            <Link to ="/Exercise">Exercise</Link>
-            <Link to ="/Nutrition">Nutrition</Link>
-            <Link to ="/Sleep">Sleep</Link>
-            <Link to ="/Login">Login</Link>
-            <Link to ="/Signup">Signup</Link>
+            <Link className="buttons" to="/">Home</Link>
+            <Link className="buttons" to ="/Activity">Activity</Link>
+            <Link className="buttons" to ="/Exercise">Exercise</Link>
+            <Link className="buttons" to ="/Nutrition">Nutrition</Link>
+            <Link className="buttons" to ="/Sleep">Sleep</Link>
+            <Link className="buttons" to ="/Login">Login</Link>
+            <Link className="buttons" to ="/Signup">Signup</Link>
           </div>
         </Toolbar>
       </Appbar>
