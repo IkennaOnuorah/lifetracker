@@ -22,6 +22,15 @@ const validateToken = (token) => {
     }
 }
 
+// const testToken = () => {
+//     const user = { email: "person@gmail.com"};
+//     const token = generateToken(user);
+//     const validatedToken = validateToken(token);
+//     console.log("validatedToken", validatedToken)
+// }
+
+// testToken();
+
 module.exports = {
     validateToken, createUserJwt
 }
