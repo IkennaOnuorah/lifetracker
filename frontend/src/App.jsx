@@ -8,6 +8,7 @@ import Signup from '../components/Signup/Signup'
 import Exercise from '../components/Exercise/Exercise'
 import Nutrition from '../components/Nutrition/Nutrition'
 import './App.css'
+import Login from '../components/Login/Login'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Exercise" element={<Exercise />} /> 
           <Route path="/Sleep" element={<Sleep />} />
          <Route path="/Signup" element={<Signup />} /> 
+         <Route path="/Login" element={<Login/>} />
         </Routes>}
       </BrowserRouter>
 
