@@ -3,11 +3,15 @@ const morgan = require("morgan");
 const cors = require("cors");
 const authRouter = require("./routes/auth")
 const app = express();
-const port = 3000;
+const {PORT} = require('./config');
+const {extractUserFromJwt} = require('./middleware/security')
 
 app.use(cors());
 app.use(morgan("tiny"));
 app.use(express.json());
+
+app.use(extractUserFromJwt)
+
 app.use("/auth", authRouter);
 
 app.get("/", (req, res) => {
@@ -19,6 +23,6 @@ app.post("/", (req, res) => {
   res.send("Good Post");
 });
 
-app.listen(process.env.PORT || port, () => {
-  console.log(`Example app listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server listening at http://localhost:${PORT}`);
 });
