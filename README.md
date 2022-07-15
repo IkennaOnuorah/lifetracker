@@ -2,33 +2,33 @@
 
 # Week 3 Assignment: Life Tracker
 
-Submitted by: **NAME**
+Submitted by: **Ikenna Onuorah**
 
-Deployed Application: [Lifetracker Deployed Site](ADD_LINK_HERE)
+Deployed Application: [Lifetracker Deployed Site](http://localhost:3001/)
 
 ## Application Features
 
 ### Core Features
 
-- [ ] **The Nav Bar:** Implement customized views for users who are logged in vs not logged in.
-  - [ ] If the user is logged in, it should display a **Sign Out** button. 
-  - [ ] If no user is logged in, it should display **Login** and **Register** buttons
-  - [ ] Display a logo on the far left side, and contain links to the individual detailed activity page. 
-- [ ] **The Landing Page:** Display a large hero image and a brief blurb on what this application is about
-- [ ] **Login Page:** A form that allows users to login with email and password.
-- [ ] **Registration Page:** A form that allows the user to sign up with their email, password, username, first name, and last name.
-- [ ] When a user first authenticates, they should be redirected to an authenticated view (i.e the detailed activity page). When they sign out, all frontend data should be reset.
-- [ ] Users have access to an overview Activity page that show one summary statistic about each of the 3 types of activity tracked.
-- [ ] The API should have a `security` middleware that only allows authenticated users to access resources and only allows users to access resources about themselves. 
-- [ ] Users should have the ability to track at least **1** types of activities (i.e Nutrition, Exercise, Sleep, etc.). Each activity should be tracked on separate pages.
-- [ ] Deployed website with Heroku & Surge. 
+- [ x] **The Nav Bar:** Implement customized views for users who are logged in vs not logged in.
+  - [ x] If the user is logged in, it should display a **Sign Out** button. 
+  - [ x] If no user is logged in, it should display **Login** and **Register** buttons
+  - [ x] Display a logo on the far left side, and contain links to the individual detailed activity page. 
+- [ x] **The Landing Page:** Display a large hero image and a brief blurb on what this application is about
+- [ x] **Login Page:** A form that allows users to login with email and password.
+- [ x] **Registration Page:** A form that allows the user to sign up with their email, password, username, first name, and last name.
+- [ x] When a user first authenticates, they should be redirected to an authenticated view (i.e the detailed activity page). When they sign out, all frontend data should be reset.
+- [ x] Users have access to an overview Activity page that show one summary statistic about each of the 3 types of activity tracked.
+- [ x] The API should have a `security` middleware that only allows authenticated users to access resources and only allows users to access resources about themselves. 
+- [ x] Users should have the ability to track at least **1** types of activities (i.e Nutrition, Exercise, Sleep, etc.). Each activity should be tracked on separate pages.
+- [ x] Deployed website with Heroku & Surge. 
 
 **Detailed Activity Page:**
-- [ ] The detailed activity page should display a feed of all previous tracked activities.
-- [ ] The detailed activity should contain a form to contain relevant information. (i.e if tracking nutrition this form allows the user to capture calories, timestamp, image, category, etc.) 
-- [ ] The activity tracked should be given a unique id for easy lookup.
-  `TODO://` Add link to table schema in the link code below. Your file should end in `.sql` and show your schema for the detailed activities table. (🚫 Remove this paragraph after adding schema link)
-  * [Table Schema](📝ADD LINK TO TABLE SCHEMA.sql HERE!) 
+- [ x] The detailed activity page should display a feed of all previous tracked activities.
+- [ x] The detailed activity should contain a form to contain relevant information. (i.e if tracking nutrition this form allows the user to capture calories, timestamp, image, category, etc.) 
+- [ x] The activity tracked should be given a unique id for easy lookup.
+  `TODO://` Add link to table schema in the link code below. Your file should end in `.sql` and show your schema for the detailed activities table. 
+  * [Table Schema](./backend/lifetracker-schema.sql) 
 
 ### Stretch Features
 
@@ -40,23 +40,22 @@ Implement any of the following features to improve the application:
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. 
+`<div style="position: relative; padding-bottom: 53.75%; height: 0;"><iframe src="https://www.loom.com/embed/e87af2b9fcea4599bb761715b3be4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-[Add your response here]
+[I felt unprepared for the backend side of this project. I had a hard time being able to connect my frontend and backend to work together. Creating tokens was a aspect that i didn't understand well in the lab. ]
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
-  
-[Add your response here]
+[  If I had more time I would try to implement some of the stretch features to make my website even more interactive.
+]
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-[Add your response here]
+[What went well was that my nav  links were set up correctly and I was successfully able to visit each page. My login and signup worked as it should. The user would be able to login and sign up successfully. Some things that I would have to work on is to get my activity and exercise component to work. I noticed that my peer had a very nice and simple layout on their frontend. So next time I would want to improve my site by making it easy for the user to interact with.]
 
 ### Open-source libraries used
 
@@ -66,4 +65,4 @@ Implement any of the following features to improve the application:
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-[Add your response here]
+[I would like to give a shoutout to my felllow interns Aloye and Yaw for asisting me in better understanding how to link my backend to my frontend to work together. Also for guiding me through the steps of what is needed in the backend to make my site functional and the correct way to implement tokens.]
