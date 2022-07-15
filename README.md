@@ -41,7 +41,7 @@ Implement any of the following features to improve the application:
 ### Walkthrough Video
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. 
-`<div style="position: relative; padding-bottom: 53.75%; height: 0;"><iframe src="https://www.loom.com/embed/e87af2b9fcea4599bb761715b3be4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
+<div style="position: relative; padding-bottom: 53.75%; height: 0;"><iframe src="https://www.loom.com/embed/e87af2b9fcea4599bb761715b3be4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
@@ -50,6 +50,7 @@ Implement any of the following features to improve the application:
 [I felt unprepared for the backend side of this project. I had a hard time being able to connect my frontend and backend to work together. Creating tokens was a aspect that i didn't understand well in the lab. ]
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
+
 [  If I had more time I would try to implement some of the stretch features to make my website even more interactive.
 ]
 
